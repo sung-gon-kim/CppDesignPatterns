@@ -19,4 +19,6 @@ function(build_executable)
 endfunction()
 
 # Add sub directories
+add_subdirectory(Adapter_Inheritance)
+add_subdirectory(Adapter_Instance)
 add_subdirectory(Iterator)
