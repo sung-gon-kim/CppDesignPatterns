@@ -1,4 +1,4 @@
-build_executable(
+build_program(
   NAME Factory
-  SRCS Creator.cpp ConcreteCreator.cpp ConcreteProduct.cpp main.cpp
-)
+  SUFFIX .bin
+  SRCS Creator.cpp ConcreteCreator.cpp ConcreteProduct.cpp main.cpp)
