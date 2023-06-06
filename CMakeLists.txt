@@ -9,7 +9,7 @@ include(CMakeUtils)
 # Set up the project C++11 compatible
 set_cxx_standard(11)
 
-enable_static_analysis(NO_IWYU)
+enable_static_analysis(cppcheck cpplint lwyu)
 enable_testing()
 enable_test_coverage()
 
