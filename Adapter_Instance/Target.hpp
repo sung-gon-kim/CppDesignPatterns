@@ -5,7 +5,8 @@
  * @brief Target class
  */
 class Target {
-public:
+ public:
+  virtual ~Target() = default;
   virtual void request() = 0;
 };
 

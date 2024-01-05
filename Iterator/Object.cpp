@@ -1,7 +1,5 @@
 #include <string>
-
 #include "Object.hpp"
-
 
 Object::Object(std::string name) : name(name) {
 }

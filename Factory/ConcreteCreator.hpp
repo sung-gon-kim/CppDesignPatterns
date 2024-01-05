@@ -4,16 +4,15 @@
 #include <memory>
 #include <string>
 #include <vector>
-
 #include "Creator.hpp"
 #include "Product.hpp"
 
 class ConcreteCreator : public Creator {
-protected:
+ protected:
   std::shared_ptr<Product> createProduct(const std::string& name) override;
   void registerProduct(std::shared_ptr<Product> product) override;
 
-private:
+ private:
   std::vector<std::shared_ptr<Product>> products;
 };
 

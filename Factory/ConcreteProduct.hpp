@@ -4,7 +4,7 @@
 #include "Product.hpp"
 
 class ConcreteProduct : public Product {
-public:
+ public:
   /**
    * @brief Default constructor
    *
@@ -14,7 +14,7 @@ public:
 
   std::string getName() override;
 
-private:
+ private:
   std::string mName;
 };
 

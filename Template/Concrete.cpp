@@ -1,5 +1,4 @@
 #include <iostream>
-
 #include "Concrete.hpp"
 
 void Concrete::operation1() {

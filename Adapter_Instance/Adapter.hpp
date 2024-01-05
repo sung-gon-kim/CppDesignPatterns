@@ -8,10 +8,10 @@
  * @brief Adapter class
  */
 class Adapter : public Target {
-public:
+ public:
   void request() override;
 
-private:
+ private:
   Adaptee adaptee;
 };
 

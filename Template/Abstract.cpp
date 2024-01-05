@@ -1,7 +1,5 @@
 #include <iostream>
-
 #include "Abstract.hpp"
-
 
 void Abstract::method() {
   std::cout << "method called" << std::endl;

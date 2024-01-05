@@ -7,7 +7,7 @@
  * @brief An object class.
  */
 class Object {
-public:
+ public:
   /**
    * @brief Default constructor.
    *
@@ -22,7 +22,7 @@ public:
    */
   std::string getName();
 
-private:
+ private:
   std::string name;
 };
 

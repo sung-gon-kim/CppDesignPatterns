@@ -7,7 +7,7 @@
  * @brief Singleton class
  */
 class Singleton {
-public:
+ public:
   static std::shared_ptr<Singleton> getInstance();
 };
 

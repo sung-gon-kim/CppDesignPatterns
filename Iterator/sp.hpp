@@ -8,7 +8,7 @@
  */
 template <typename T>
 class sp {
-public:
+ public:
   /**
    * @brief Default constructor
    *
@@ -41,8 +41,8 @@ public:
   T& operator*() {
     return *object;
   }
-  
-private:
+
+ private:
   T* object;
 };
 

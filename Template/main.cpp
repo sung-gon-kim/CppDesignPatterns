@@ -1,5 +1,4 @@
 #include <memory>
-
 #include "Abstract.hpp"
 #include "Concrete.hpp"
 

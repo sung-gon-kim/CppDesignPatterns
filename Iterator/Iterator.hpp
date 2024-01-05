@@ -8,13 +8,12 @@
  */
 template <typename T>
 class Iterator {
-public:
+ public:
   /**
    * @brief Default destructor
    */
-  virtual ~Iterator() {
-  }
-  
+  virtual ~Iterator() = default;
+
   /**
    * @brief Test if next object is available.
    *

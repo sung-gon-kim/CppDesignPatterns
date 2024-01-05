@@ -11,7 +11,7 @@
  */
 template <typename T>
 class Aggregate {
-public:
+ public:
   /**
    * @brief Return the iterator of the given class type.
    *

@@ -5,13 +5,15 @@
  * @brief Abstract class
  */
 class Abstract {
-public:
+ public:
+  virtual ~Abstract() = default;
+
   /**
    * @brief Public callable method.
    */
   void method();
 
-protected:
+ protected:
   /**
    * @brief Abstract protected method.
    */

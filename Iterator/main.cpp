@@ -1,5 +1,4 @@
 #include <iostream>
-
 #include "ObjectContainer.hpp"
 
 int main() {
@@ -12,5 +11,6 @@ int main() {
   while (it->hasNext()) {
     std::cout << it->getNext().getName() << std::endl;
   }
+
   return 0;
 }

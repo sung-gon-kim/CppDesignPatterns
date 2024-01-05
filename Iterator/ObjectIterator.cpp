@@ -1,9 +1,8 @@
 #include "ObjectContainer.hpp"
 #include "ObjectIterator.hpp"
 
-
 ObjectIterator::ObjectIterator(ObjectContainer* container) :
-  mContainer(container), mIndex(0) {
+    mContainer(container), mIndex(0) {
 }
 
 bool ObjectIterator::hasNext() {

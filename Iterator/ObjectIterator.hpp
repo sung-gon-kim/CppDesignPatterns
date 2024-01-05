@@ -9,21 +9,20 @@ class ObjectContainer;
  * @brief Iterator class for Object instances
  */
 class ObjectIterator : public Iterator<Object> {
-public:
+ public:
   /**
    * @brief Default constructor
    *
    * @param container for this iterator
    */
   explicit ObjectIterator(ObjectContainer* container);
-  
+
   bool hasNext() override;
   Object getNext() override;
 
-private:
+ private:
   ObjectContainer* mContainer;
   std::size_t mIndex;
 };
-
 
 #endif  // OBJECTITERATOR_HPP_

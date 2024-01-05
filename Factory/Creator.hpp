@@ -3,14 +3,13 @@
 
 #include <memory>
 #include <string>
-
 #include "Product.hpp"
 
 /**
  * @brief Creator class
  */
 class Creator {
-public:
+ public:
   /**
    * @brief Default destructor
    */
@@ -24,7 +23,7 @@ public:
    */
   std::shared_ptr<Product> create(const std::string& name);
 
-protected:
+ protected:
   virtual std::shared_ptr<Product> createProduct(const std::string& name) = 0;
   virtual void registerProduct(std::shared_ptr<Product> product) = 0;
 };

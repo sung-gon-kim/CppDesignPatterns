@@ -7,7 +7,7 @@
  * @brief Concrete class
  */
 class Concrete : public Abstract {
-protected:
+ protected:
   void operation1() override;
   void operation2() override;
 };

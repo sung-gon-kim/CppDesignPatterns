@@ -7,7 +7,9 @@
  * @brief Product interface
  */
 class Product {
-public:
+ public:
+  virtual ~Product() = default;
+
   /**
    * @brief Return name of the product
    *

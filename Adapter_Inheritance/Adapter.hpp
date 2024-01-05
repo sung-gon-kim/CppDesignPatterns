@@ -9,7 +9,7 @@
  */
 class Adapter : public Target,
 		public Adaptee {
-public:
+ public:
   void request() override;
 };
 

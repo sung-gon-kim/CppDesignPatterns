@@ -2,15 +2,13 @@
 #define OBJECTCONTAINER_HPP_
 
 #include <vector>
-
 #include "Aggregate.hpp"
 #include "Iterator.hpp"
 #include "Object.hpp"
 #include "sp.hpp"
 
-
 class ObjectContainer : public Aggregate<Object> {
-public:
+ public:
   sp<Iterator<Object> > getIterator() override;
 
   /**
@@ -35,7 +33,7 @@ public:
    */
   Object get(std::size_t index);
 
-private:
+ private:
   std::vector<Object> objects;
 };
 

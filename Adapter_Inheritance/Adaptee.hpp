@@ -2,7 +2,8 @@
 #define ADAPTEE_HPP_
 
 class Adaptee {
-public:
+ public:
+  virtual ~Adaptee() = default;
   void specificRequest();
 };
 

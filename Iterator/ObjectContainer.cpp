@@ -4,7 +4,6 @@
 #include "ObjectIterator.hpp"
 #include "sp.hpp"
 
-
 sp<Iterator<Object> > ObjectContainer::getIterator() {
   return sp<Iterator<Object> >(new ObjectIterator(this));
 }

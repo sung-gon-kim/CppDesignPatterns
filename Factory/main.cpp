@@ -1,6 +1,5 @@
 #include <iostream>
 #include <memory>
-
 #include "ConcreteCreator.hpp"
 #include "ConcreteProduct.hpp"
 
@@ -13,5 +12,6 @@ int main() {
   std::cout << product1->getName() << std::endl;
   std::cout << product2->getName() << std::endl;
   std::cout << product3->getName() << std::endl;
+
   return 0;
 }
