@@ -6,7 +6,7 @@ project(CppDesignPatterns VERSION 0.0.1 LANGUAGES CXX)
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/scripts")
 include(CMakeUtils)
 
-set_cxx_standard(11)
+set_cxx_standard(17)
 set(CMAKE_EXECUTABLE_SUFFIX ".bin")
 enable_static_analysis(cppcheck cpplint lwyu)
 enable_testing()
